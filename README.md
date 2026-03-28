@@ -1,16 +1,18 @@
 # DBMS Mini Project (Firebase/React)
 
-A full-stack web application designed to demonstrate Database Management System (DBMS) principles, powered by Firebase for storage and React for the frontend.
+A full-stack web application designed to demonstrate Database Management System (DBMS) principles, featuring a modern React frontend and a cloud-hosted Firebase backend.
 
-## Features
+## Architecture
 
-- **CRUD Operations**: Create, Read, Update, and Delete records in real-time.
-- **Firebase Integration**: Utilizes Firestore for NoSQL document storage and Firebase Authentication for user management.
-- **Cloud Functions**: Serverless logic for backend processing.
-- **Responsive UI**: Built with React and modern CSS.
+- **Database**: Firebase Firestore (NoSQL document storage).
+- **Frontend**: React.js with responsive design.
+- **Serverless Backend**: Firebase Cloud Functions for logic processing.
+- **Authentication**: Firebase Auth for secure user access control.
 
 ## Setup
 
-1. `npm install`
-2. `firebase login`
-3. `npm start`
+```bash
+npm install
+firebase login
+npm start
+```
